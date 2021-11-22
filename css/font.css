@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'GothamPro';
+  src: url('../css/font/GothamPro-Black.eot'); /* IE9 Compat Modes */
+  src: url('../css/font/GothamPro-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../css/font/GothamPro-Black.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../css/font/GothamPro-Black.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../css/font/GothamPro-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../css/font/GothamPro-Black.svg#svgFontName') format('svg'); /* Legacy iOS */
+		font-weight: 900;
+		font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GothamPro';
+  src: url('../css/font/GothamPro-BoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('../css/font/GothamPro-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../css/font/GothamPro-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../css/font/GothamPro-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../css/font/GothamPro-BoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../css/font/GothamPro-BoldItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+		font-weight: 700;
+		font-style: italic;
+}
+
+@font-face {
+  font-family: 'GothamPro';
+  src: url('../css/font/GothamPro-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../css/font/GothamPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../css/font/GothamPro-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../css/font/GothamPro-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../css/font/GothamPro-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../css/font/GothamPro-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+		font-weight: 700;
+		font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GothamPro';
+  src: url('../css/font/GothamPro-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../css/font/GothamPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../css/font/GothamPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../css/font/GothamPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../css/font/GothamPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../css/font/GothamPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+		font-weight: 500;
+		font-style: normal;
+}

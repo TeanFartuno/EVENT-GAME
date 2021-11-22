@@ -1,0 +1,438 @@
+@media screen and (max-width: 5000px) {
+	.btn-mob-nav{
+		display: none;
+	}
+
+	.Addition-mob{
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 1000px) {
+	h2{
+		padding: 50px 0px;
+	}
+}
+	
+
+@media screen and (max-width: 927px) {
+	.tournaments, .celebration, .tennis{ 
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.sentence{
+		width: 70%;
+		margin: 0px auto;
+	}	
+}
+
+
+@media screen and (max-width: 868px) {
+	.btn-mob-nav{
+		display: block;
+	}
+}
+
+
+
+
+@media screen and (max-width: 867px) {
+	.black{
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 1270px){
+	.tennis-block {
+    	background-position-x: -200px;
+	}
+}
+
+
+@media screen and (max-width: 1000px){
+	.tennis-block {
+    	background-position-x: -278px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.tennis-block {
+    	background-position-x: -478px;
+	}
+}
+
+
+@media screen and (max-width: 800px){
+	.tennis-block {
+    	background: url(../img/tennis-mob.png);
+	}
+
+	.tennis-block__headline{
+		width: 95%;
+		text-align: center;
+	}
+
+	.tennis-block__liner{
+		margin:0% 4% 40px;
+		background: url(../img/liner-mob.png) center center no-repeat;
+	}
+	.tennis-block p{
+		width: 80%;
+		margin: 0% auto 40px;
+		text-align: center;
+	
+	}	
+
+	.tennis-block___btn-video{	
+		margin: 0% auto;
+		text-align: center;
+		width: 100%;
+	}
+
+	.tennis-block___tennis-btn-order{
+		margin: 0% auto;
+		text-align: center;
+		width: 100%;
+	}
+
+	
+
+	.Addition-top{
+		display: none;
+	}
+
+	.Addition-bottom{
+		display: none;
+	}
+
+	.Addition-mob{
+		display: block;
+	}
+
+}
+
+
+
+@media screen and (max-width: 510px) {
+	.icon-mob{
+		display: none;
+	}
+}
+
+
+
+
+@media screen and (max-width: 413px) {
+	.phone-mob{
+		display: none;
+	}
+
+	.servis h2 {
+		font-size: 27px;
+	}
+
+	.tennis-video {
+		display: none;
+	}
+
+
+	.volleyball-block {
+	    background: url(../img/volleyball-mob.png);
+	    background-position-x: -400px;
+	}
+
+	.logo__img {
+    	width: 21%;
+    	margin-top: 16%;
+    	margin-left: 12%;
+	}
+
+	.event-game__img {
+    	width: 100%;
+    	margin-top: -24%;
+    	margin-left: -24%;
+    	margin-bottom: -4%;
+	}
+
+	h1 {
+    font-size: 3.3vw;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 1.2;
+    margin-top: -7%;
+    margin-left: 3%;
+    margin-bottom: 57px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+	}
+}
+
+
+@media screen and (max-width: 1270px){
+	.volleyball-block {
+    	background-position-x: -300px;
+	}
+}
+
+
+@media screen and (max-width: 1000px){
+	.volleyball-block {
+    	background-position-x: -360px;
+
+	}
+
+	
+}
+
+@media screen and (max-width: 900px){
+	.volleyball-block {
+    	background-position-x: -450px;
+	}
+}
+
+
+@media screen and (max-width: 800px){
+	.volleyball-block {
+    	background: url(../img/volleyball-mob.png);
+	}
+
+	.volleyball-block__headline{
+		width: 94%;
+		text-align: center;
+	}
+
+	.volleyball-block__liner{
+		margin:0% 4% 40px;
+		background: url(../img/liner-mob.png) center center no-repeat;
+	}
+	.volleyball-block p{
+		width: 80%;
+		margin: 0% auto 40px;
+		text-align: center;
+	
+	}	
+
+	.volleyball-block___btn-video{	
+		margin: 0% auto;
+		text-align: center;
+		width: 100%;
+	}
+
+	.volleyball-block___tennis-btn-order{
+		margin: 0% auto;
+		text-align: center;
+		width: 100%;
+	}
+
+	.volleyball-block__text {
+   		 width: 95%;
+   		 margin: 0% 4% 40px;
+   
+	}
+
+	.sport-style h2 {
+    width: 100%;
+    margin: 0px auto;
+
+}
+
+}
+
+
+@media screen and (max-width: 1270px){
+	.floorball-block {
+    	background-position-x: -366px;
+	}
+}
+
+
+@media screen and (max-width: 1000px){
+	.floorball-block {
+    	background-position-x: -436px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.floorball-block {
+    	background-position-x: -541px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.floorball-block {
+    	background: url(../img/floorball-mob.png);
+	}
+
+	.floorball-block__headline{
+		width: 92%;
+		text-align: center;
+	}
+
+
+	.floorball-block p{
+		width: 80%;
+		margin: 0% auto 40px;
+		text-align: center;
+	
+	}
+
+	.floorball-game {
+    text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 1270px){
+	.football-block {
+    	background-position-x: -366px;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.football-block {
+    	background-position-x: -436px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.football-block {
+    	background-position-x: -405px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.football-block {
+    	background: url(../img/football-mob.png);
+    	background-position-y: -330px;
+	}
+
+
+	.football-block__text {
+   		 width: 95%;
+   		 margin: 0% 4% 40px;
+   
+	}
+    
+    .football-block p{
+		width: 80%;
+		margin: 0% auto 40px;
+		text-align: center;
+	
+	}
+}
+
+	@media screen and (max-width: 900px){
+		.check-right, .check-left{
+    	width: 100%
+/*    	margin-right: 0px;
+    	margin-bottom: 0px;*/
+	}
+
+	.check-right li{
+		display: block;
+		background: url(../img/chek.png) center top no-repeat;
+		text-align: center;
+		padding-left: 0px;
+		padding-top: 55px;
+		padding-bottom: 0px;
+		margin-bottom: 20px;
+	}
+
+	.check-left li{
+		display: block;
+		background: url(../img/chek.png) center top no-repeat;
+		text-align: center;
+		padding-left: 0px;
+		padding-top: 55px;
+		padding-bottom: 0px;
+		margin-bottom: 20px;
+	}
+}
+
+
+
+@media screen and (max-width: 800px){
+	.work-icon {
+    	float: none;
+    	margin: 0px auto;
+    	width: 80%;
+	}
+
+	.work-icon img {
+    	text-align: center;
+    	margin: 0px 40%;
+    	width: 20%;
+	}
+}
+
+@media screen and (max-width: 650px){
+	.Table-Tennis-Show__tennis-btn img {
+    width: 100%;
+    width: 50%;
+    margin: 0px 4% 4% 46%;
+	}
+
+	iframe {
+		height: 50vh;
+	}
+
+
+}
+
+@media screen and (max-width: 700px){
+	.Addition-ico  {
+    	float: none;
+		margin: 6px auto;
+		width: 36%;
+	}
+
+	.Addition-ico-bottom {
+		padding: 5% 22% 0%;
+		text-align: center;
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+
+	.volleyball-block {
+	    background: url(../img/volleyball-mob.png);
+	    background-position-x: -350px;
+	}
+
+	.tennis-block {
+    background: url(../img/tennis-mob.png);
+   
+    background-position-x: -350px;
+
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.tennis-video {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 5000px) {
+	.tennis-video-mob {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 700px) {
+	.tennis-video-mob {
+		display: block;
+		margin: 20px 0px;
+	}
+}
+
+
+
+

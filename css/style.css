@@ -1,0 +1,1154 @@
+html
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body
+{
+    font-family: GothamPro, Tahoma, sans-serif;
+    font-size: 14px;
+
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+div,
+p,
+input,
+button,
+form
+{
+    box-sizing: border-box;
+}
+
+
+
+.clearfix:after
+{
+    display: table;
+    clear: both;
+
+    width: 100%;
+
+    content: '';
+}
+
+
+
+h1
+{
+    font-size: 4.3vw;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 1.2;
+
+    margin-top: -9%;
+    margin-left: 3%;
+    margin-bottom: 57px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+h2
+{
+    font-size: 2.857em;
+
+    margin: 0;
+    padding: 80px 0;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #424143;
+}
+
+h3
+{
+    font-size: 2.143em;
+
+    padding: 60px 0;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #424143;
+}
+
+h4
+{
+    font-size: 1.214em;
+
+    margin: 0;
+    padding: 30px 0 20px 0;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #424143;
+}
+
+/*-----МЕНЮ САЙТА----*/
+
+/*----ВЕРСИЯ ДЛЯ ПК-----*/
+.connect
+{
+    position: fixed;
+    z-index: 1000;
+    top: 5px;
+    right: 273px;
+}
+
+.icon
+{
+    float: left;
+
+    margin: 0;
+    margin-right: 8px;
+    padding-left: 0;
+}
+
+.icon li
+{
+    display: block;
+    float: left;
+
+    margin-left: 5px;
+}
+
+.phone
+{
+    font-size: 1em;
+
+    float: left;
+
+    margin-top: 2px;
+    margin-left: 10px;
+
+    color: #fff;
+}
+
+.navigation
+{
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+
+    margin-top: 17px;
+}
+
+.list li
+{
+    font-size: 1em;
+
+    display: block;
+    float: left;
+
+    margin-right: 37px;
+    padding-left: 0;
+
+    text-transform: uppercase;
+}
+
+.list__items a
+{
+    padding-bottom: 5px;
+
+    color: #fff;
+}
+
+.list li:nth-child(6)
+{
+    margin-top: -20px;
+    padding: 9px;
+
+    border: 1px solid #e3a22f;
+    border-radius: 5px;
+    background-color: #e3a22f;
+}
+
+.black
+{
+    position: fixed;
+    z-index: 2000;
+
+    width: 100%;
+    height: 60px;
+
+    background-color: #000;
+}
+
+.btn-prise a
+{
+    font-weight: 800;
+
+    color: #000;
+}
+
+.list__items a:hover
+{
+    transform: ease 2s all;
+
+    border-bottom: 2px solid #e3a22f;
+}
+
+/*----ВЕРСИЯ ДЛЯ ПЛАНШЕТОВ И МОБ.УСТРОЙСТВ-----*/
+
+.mobail-nav
+{
+    position: fixed;
+    z-index: 1100;
+
+    width: 100%;
+    height: 50px;
+
+    background: #000;
+}
+
+.open
+{
+    position: fixed;
+    z-index: 2000;
+    top: -7px;
+    right: 2%;
+
+    display: block;
+
+    width: 10%;
+    height: 10%;
+
+    cursor: pointer;
+    transition: opacity .2s linear;
+}
+
+
+.open:hover
+{
+    opacity: .8;
+}
+
+.open span
+{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+
+    display: block;
+    float: left;
+    clear: both;
+    overflow: hidden;
+
+    width: 40px;
+    height: 4px;
+
+    transition: all .4s ease;
+
+    border-radius: 40px;
+    background-color: #fff;
+}
+
+.open span:nth-child(1)
+{
+    z-index: 9;
+
+    margin-top: 10px;
+}
+
+.open span:nth-child(2)
+{
+    margin-top: 25px;
+}
+
+.open span:nth-child(3)
+{
+    margin-top: 40px;
+}
+
+.sub-menu
+{
+    position: absolute;
+    z-index: 18;
+    top: 0;
+    right: 0;
+
+    overflow: hidden;
+
+    width: 0;
+    height: 0;
+
+    transition: all .8s cubic-bezier(.68, -.55, .265, 1.55);
+
+    border: 2px solid #e3a22f;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .54);
+}
+
+.sub-menu li
+{
+    display: block;
+    float: right;
+    clear: both;
+
+    height: auto;
+    margin-right: -160px;
+
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55);
+}
+
+.sub-menu li:first-child
+{
+    margin-top: 180px;
+}
+
+.sub-menu li:nth-child(1)
+{
+    -webkit-transition-delay: .05s;
+}
+
+.sub-menu li:nth-child(2)
+{
+    -webkit-transition-delay: .10s;
+}
+
+.sub-menu li:nth-child(3)
+{
+    -webkit-transition-delay: .15s;
+}
+
+.sub-menu li:nth-child(4)
+{
+    -webkit-transition-delay: .20s;
+}
+
+.sub-menu li:nth-child(5)
+{
+    -webkit-transition-delay: .25s;
+}
+
+.sub-menu li a
+{
+    font-family: 'GothamPro', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 30px;
+
+    display: block;
+    float: left;
+
+    width: 100%;
+
+    color: #fff;
+}
+
+.oppenned .sub-menu
+{
+    width: 320px;
+    height: 350px;
+
+    opacity: 1;
+}
+
+.oppenned span:nth-child(2)
+{
+    overflow: visible;
+}
+
+.oppenned span:nth-child(1),
+.oppenned span:nth-child(3)
+{
+    z-index: 100;
+
+    transform: rotate(45deg);
+}
+
+.oppenned span:nth-child(1)
+{
+    transform: rotate(45deg) translateY(12px) translateX(12px);
+}
+
+.oppenned span:nth-child(2)
+{
+    top: -160px;
+    right: -160px;
+
+    width: 361px;
+    height: 368px;
+
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .54);
+}
+
+.oppenned span:nth-child(3)
+{
+    transform: rotate(-45deg) translateY(-10px) translateX(10px);
+}
+
+.oppenned li
+{
+    margin-right: 168px;
+}
+
+
+.sub-menu li a:hover
+{
+    color: #e3a22f;
+}
+
+
+.btn-mob-nav a
+{
+    font-size: 1em;
+    font-weight: 800;
+    line-height: 1;
+
+    float: right;
+
+    margin-top: 7px;
+    margin-right: 68px;
+    padding: 10px 15px;
+
+    color: #000;
+    border-radius: 3px;
+    background-color: #e3a22f;
+}
+
+
+.connect-mob
+{
+    position: fixed;
+    z-index: 1000;
+    top: 5px;
+    left: 16px;
+}
+
+.icon-mob
+{
+    float: left;
+
+    margin-top: 8px;
+    margin-right: 8px;
+    padding-left: 0;
+}
+
+
+.icon-mob li
+{
+    display: block;
+    float: left;
+
+    margin-left: 5px;
+}
+
+.phone-mob
+{
+    font-size: 1em;
+
+    float: left;
+
+    margin-top: 11px;
+    margin-left: 10px;
+
+    color: #fff;
+}
+
+
+
+/*-----ГЛАВНЫЙ ЭКРАН------*/
+.screen
+{
+    position: relative;
+    z-index: 0;
+
+    width: 100%;
+}
+
+.head
+{
+    position: relative;
+    z-index: 100;
+}
+
+.logo
+{
+    width: 100%;
+}
+
+.logo__img
+{
+    width: 19%;
+    margin-top: 6%;
+    margin-left: 12%;
+}
+
+
+.event-game
+{
+    width: 100%;
+}
+
+.event-game__img
+{
+    width: 100%;
+    margin-top: -19%;
+    margin-left: -24%;
+}
+
+/*----О НАС----*/
+
+.sentence
+{
+    width: 100%;
+}
+
+.text
+{
+    font-size: 1em;
+
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+
+    text-align: center;
+
+    color: #424143;
+}
+
+.sentence
+{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.tournaments
+{
+    float: left;
+
+    width: 30%;
+    margin: 0 1.5%;
+    padding-top: 200px;
+
+    background: url(../img/tournaments.png) center top no-repeat;
+}
+
+.tournaments__description
+{
+    font-size: 1em;
+
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+
+    color: #424143;
+}
+
+
+.celebration
+{
+    float: left;
+
+    width: 30%;
+    margin: 0 1.5%;
+    padding-top: 200px;
+
+    background: url(../img/celebration.png) center top no-repeat;
+}
+
+.celebration__description
+{
+    font-size: 1em;
+
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+
+    color: #424143;
+}
+
+.tennis
+{
+    float: left;
+
+    width: 30%;
+    margin: 0 1.5%;
+    padding-top: 200px;
+
+    background: url(../img/tennis-ico.png) center top no-repeat;
+}
+
+.tennis__description
+{
+    font-size: 1em;
+
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+
+    color: #424143;
+}
+
+/*----ТУРНИРЫ-----*/
+
+/*----ТЕНИС НАЧАЛО-----*/
+
+.tennis-block
+{
+    width: 100%;
+    padding: 7% 0;
+
+    background: url(../img/bg-tennis.png) left top / cover;
+    background-position-x: -118px;
+}
+
+.tennis-block__headline
+{
+    font-size: 2.857em;
+    font-weight: 900;
+    line-height: 1;
+
+    width: 30%;
+    margin: 0 4% 40px;
+
+    text-transform: uppercase;
+
+    color: #002;
+}
+
+
+.tennis-block__liner
+{
+    height: 20px;
+    margin: 0 4% 40px;
+
+    background: url(../img/liner.png) left center no-repeat;
+}
+
+.tennis-block p
+{
+    width: 50%;
+    margin: 0 4% 40px;
+
+    color: 000000;
+}
+
+.tennis-block___btn-video
+{
+    float: left;
+
+    margin: 0 4% 40px;
+}
+
+.tennis-block___tennis-btn-order
+{
+    float: right;
+
+    margin: 0 4% 40px;
+}
+
+/*----ТЕНИС КОНЕЦ-----*/
+
+
+/*----ВОЛЕЙБОЛ НАЧАЛО----*/
+.volleyball-block
+{
+    width: 100%;
+    padding: 7% 0;
+
+    background: url(../img/volleyball.png) right top / cover;
+}
+
+.volleyball-block__headline
+{
+    font-size: 2.857em;
+    font-weight: 900;
+    line-height: 1;
+
+    margin: 0 4% 40px;
+
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #002;
+}
+
+.volleyball-block__liner
+{
+    height: 20px;
+    margin: 0 4% 40px;
+
+    text-align: right;
+
+    background: url(../img/liner-inv.png) right center no-repeat;
+}
+
+.volleyball-block__text
+{
+    width: 50%;
+    margin: 0 4% auto auto;
+}
+
+.volleyball-block p
+{
+    margin: 0 0 40px;
+
+    text-align: right;
+
+    color: 000000;
+}
+
+
+/*----ВОЛЕЙБОЛ КОНЕЦ----*/
+
+/*---ФЛОРБОЛ----*/
+
+.floorball-block
+{
+    width: 100%;
+    padding: 7% 0;
+
+    background: url(../img/Florball.png) left top / cover;
+    background-position-x: -84px;
+}
+
+.tennis-block__headline
+{
+    font-size: 2.857em;
+    font-weight: 900;
+    line-height: 1;
+
+    width: 30%;
+    margin: 0 4% 40px;
+
+    text-transform: uppercase;
+
+    color: #002;
+}
+
+
+.tennis-block__liner
+{
+    height: 20px;
+    margin: 0 4% 40px;
+
+    background: url(../img/liner.png) left center no-repeat;
+}
+
+.floorball-block p
+{
+    width: 50%;
+    margin: 0 4% 40px;
+
+    color: #000;
+}
+
+.tennis-block___btn-video
+{
+    float: left;
+
+    margin: 0 4% 40px;
+}
+
+.tennis-block___tennis-btn-order
+{
+    float: right;
+
+    margin: 0 4% 40px;
+}
+
+.floorball-game
+{
+    font-size: 2.143em;
+    font-weight: 900;
+
+    margin: 0 4% 40px;
+
+    text-transform: uppercase;
+
+    color: #002;
+}
+
+.floorball-block__headline
+{
+    font-size: 2.857em;
+    font-weight: 900;
+    line-height: 1;
+
+    width: 30%;
+    margin: 0 4% 40px;
+
+    text-transform: uppercase;
+
+    color: #002;
+}
+/*---ФЛОРБОЛ КОНЕЦ----*/
+
+/*----ФУТБОЛ----*/
+.football-block
+{
+    width: 100%;
+    padding: 7% 0;
+
+    background: url(../img/football-bg.png) right top / cover;
+}
+
+
+.football-block__text
+{
+    width: 50%;
+    margin: 0 4% auto auto;
+}
+
+.football-block__text p
+{
+    margin: 0 0 40px;
+
+    text-align: right;
+}
+
+/*---ФУТБОЛ КОНЕЦ*----/
+
+/*----КАК МЫ РАБОТАЕМ----*/
+
+.work
+{
+    width: 80%;
+    margin: 0 auto 60px auto;
+}
+
+.check-left
+{
+    float: left;
+
+    width: 45%;
+    padding-left: 0;
+}
+
+.check-left li
+{
+    font-size: 1.071em;
+
+    display: block;
+
+    margin-bottom: 15px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+
+    color: #424143;
+    background: url(../img/chek.png) left top no-repeat;
+}
+
+.check-right
+{
+    float: right;
+
+    width: 45%;
+    padding-left: 0;
+}
+
+.check-right li
+{
+    font-size: 1.071em;
+
+    display: block;
+
+    margin-bottom: 15px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+
+    color: #424143;
+    background: url(../img/chek.png) left top no-repeat;
+}
+
+.work ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*----Праздничное мероприятие в спортивном стиле----*/
+
+.sport-style
+{
+    padding-bottom: 60px;
+
+    background-color: #eefff0;
+}
+
+.sport-style h2
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sport-style p
+{
+    line-height: 1.5;
+
+    text-align: center;
+
+    color: #424143;
+}
+
+.work-icon
+{
+    float: left;
+
+    width: 20%;
+    padding: 0 1%;
+}
+
+.work-icon-zone p
+{
+    text-align: center;
+}
+
+.work-icon img
+{
+    width: 48%;
+    margin: 0 26%;
+
+    text-align: center;
+}
+
+/*----ЗАКАЗАТЬ СПОРТИВНУЮ ВЕЧЕРИНКУ----*/
+
+.sports-party
+{
+    height: 100%;
+
+    background: url(../img/party.png) center / cover;
+}
+
+.sports-party__text-img img
+{
+    width: 60%;
+    margin: 30% 20% 0;
+
+    text-align: center;
+}
+
+.batton-order
+{
+    width: 30%;
+    margin: 0 35% 4%;
+
+    text-align: center;
+}
+
+/*----Table-Tennis-Show----*/
+
+.Table-Tennis-Show h2
+{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+.Table-Tennis-Show h3
+{
+    margin: 0px;
+    padding-top: 0px;
+}
+
+
+.Table-Tennis-Show p
+{
+    width: 90%;
+    margin: 20px auto;
+
+    text-align: center;
+
+    color: #424143;
+}
+
+.Table-Tennis-Show-bg
+{
+    margin-top: 13%;
+
+    background: url(../img/show.png) left center / cover;
+}
+
+.Table-Tennis-Show-bg h1
+{
+    font-size: 5vw;
+    line-height: 1.3;
+
+    margin-right: 4%;
+    padding-top: 10%;
+
+    text-align: right;
+}
+
+.Table-Tennis-Show__tennis-btn
+{
+    width: 100%;
+}
+
+
+.Table-Tennis-Show__tennis-btn img
+{
+    width: 100%;
+    width: 32%;
+    margin: 0 4% 4% 64%;
+}
+
+/*----Видео тенис----*/
+
+.tennis-video{
+	margin: 60px ;
+}
+
+/*----УСЛУГИ----*/
+.servis{
+	background-color: #eefaff;	
+}
+
+/*Услуги дополняющие мероприятия*/
+
+.Addition-top{
+	width: 100%;
+	margin:0px auto;
+}
+
+
+.Addition-ico 
+{
+    float: left;
+
+    width: 20%;
+    padding: 0 1%;
+}
+
+.Addition-ico  p
+{
+    text-align: center;
+}
+
+.Addition-ico img
+{
+    width: 48%;
+    margin: 0 26%;
+
+    text-align: center;
+}
+
+
+.Addition-bottom{
+    width: 60%;
+    margin: 0px auto;
+}
+
+.Addition-ico-bottom
+{
+    float: left;
+
+    width: 50%;
+    padding: 6% 11%;
+
+    text-align: center;
+}
+
+
+.Addition-ico-bottom img{
+	width: 50%
+}
+
+.Addition-mob {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.Addition-mob-ico-bottom{
+	
+    float: left;
+
+    width: 50%;
+    padding: 6% 6%;
+
+    text-align: center;
+}
+
+.Addition-mob-ico-bottom img{
+	width: 70%
+}
+
+
+
+
+/*----КОНТАКТЫ----*/
+
+.contact {
+    background: url(../img/event_games_4.jpg) left top / cover;
+}
+
+.contact-contact{
+	text-transform: uppercase;
+	margin-left: 4%;
+	float: left;
+}
+
+
+.contact-contact__header{
+	color: #ecb92f;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	margin-top: -10%; 
+
+}
+
+.contact-contact__bottom {
+    line-height: 1.3;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.071em;
+    margin-bottom: 27%;
+}
+
+.servises{
+	text-transform: uppercase;
+	margin-left: 4%;
+	float: left;
+}
+
+
+.servises__header{
+	color: #ecb92f;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	margin-top: -6%; 
+}
+
+.servises__bottom {
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.071em;
+    margin-top: 17%;
+}
+
+.text-bottom{
+	color: #fff;
+	margin-left: 4%;
+	padding-bottom: 40px;
+	margin-bottom: 0px;
+}
